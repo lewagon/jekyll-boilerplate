@@ -1,5 +1,8 @@
-echo "\n\n\n\n-------------------------------------------------"
-echo "Open your browser and go to \033[1;32mhttp://localhost:4000\033[0;39m"
-echo "-------------------------------------------------\n\n\n\n"
+@echo off
+echo. & echo. & echo. &echo.
+echo -------------------------------------------------
+echo Open your browser and go to http://localhost:4000
+echo -------------------------------------------------
+echo. & echo. & echo. &echo.
 
 jekyll serve --watch
