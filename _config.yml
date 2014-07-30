@@ -1,1 +1,6 @@
 markdown: redcarpet
+
+# Github repo name for gh-pages hosting
+# If you use your own domain, remove this line (baseurl is empty)
+# In that case you should have a CNAME file in your project.
+baseurl: "/TODO-put-your-github-repo-here"
