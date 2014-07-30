@@ -5,16 +5,15 @@ title: Blog
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-4 col-sm-offset-4">
-      <ul class="posts">
-        {% for post in site.posts %}
-          <li>
-            {{ post.date | date_to_string }}
-            -
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+    <div class="col-sm-8 col-sm-offset-2">
+      <h1>Blog</h1>
+
+      {% for post in site.posts %}
+        <h2>
+          <small>{{ post.date | date_to_string }}</small>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h2>
+      {% endfor %}
     </div>
   </div>
 </div>
